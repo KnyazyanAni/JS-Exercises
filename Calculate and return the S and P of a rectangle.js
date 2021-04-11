@@ -3,7 +3,7 @@
 function getArea(length, width) {
     let area;
     // Write your code here
-    if(length>=1 && width>=1){
+    if(length>0 && width>0){
         area=length*width;
     }
     return area;
@@ -14,7 +14,7 @@ console.log(getArea(5,6));
 function getPerimeter(length, width) {
     let perimeter;
     // Write your code here
-    if(length>=1 && width>=1){
+    if(length>0 && width>0){
         perimeter=(length+width)*2;
     }
     return perimeter;
