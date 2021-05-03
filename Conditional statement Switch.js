@@ -7,7 +7,7 @@ function getLetter(s) {
     letter="A";
     break;
     case
-    ["b","c","d","e","f"].includes(s[0]):
+    ["b","c","d","f","g"].includes(s[0]):
     letter="B";
     break;
     case
