@@ -1,0 +1,11 @@
+  function triangleSide(a,b,n){
+    c=Math.sqrt(Math.pow(a,2)+Math.pow(b,2)-2*a*b*Math.cos(n*Math.PI/180));
+    if(a>0 && b>0 && a+b>c && n<180 && n>0){
+      return c;
+    }
+      else {
+        return "Enter valid numbers!";
+    }
+  }
+  console.log(triangleSide(4,3,90));
+  console.log(triangleSide(54,-5,8));
